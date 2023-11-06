@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mapbox | Maps, Navigation...</title>
+    <link rel="shortcut icon" href="images/logo_white.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"  />
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navigation">
+            <a href="#" class="logo">
+                <img src="images/logo_white.png" alt="logo" class="logo-img">
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-list nav-list-menu">
+                    <a href="#" class="nav-link">
+                        <span>Products</span>
+                        <i class="fa-solid fa-chevron-down" id="icon-size" style="color: #ffffff;"></i>
+                    </a>
+                    <div class="dropdown">
+                        <div class="dropdown-inner">
+                            <div class="dropdown-item">
+                                <h3 class="item-heading">NAVIGATION </h3>
+                                <div class="item-list">
+                                    <div class="item-img">
+                                       <i class="fa-solid fa-location-arrow" ></i>
+                                    </div>
+                                    <div class="item-list-info">
+                                        <h4>Navigation Solutions</h4>
+                                        <p>SDKs, APIs, EV, and more</p>
+                                    </div>
+                                </div>
+                                <div class="item-list">
+                                    <div class="item-img">
+                                        <i class="fa-solid fa-map-location"></i>
+                                    </div>
+                                    <div class="item-list-info">
+                                        <h4>Navigation Solutions</h4>
+                                        <p>SDKs, APIs, EV, and more</p>
+                                    </div>
+                                </div>
+                                <div class="item-list">
+                                    <div class="item-img">
+                                        <i class="fa-solid fa-map-location"></i>
+                                    </div>
+                                    <div class="item-list-info">
+                                        <h4>Navigation SDK</h4>
+                                        <p>Turn-by-Turn Routing foor iOS & Android</p>
+                                    </div>
+                                </div>
+                                <div class="item-list">
+                                    <div class="item-img">
+                                        <i class="fa-solid fa-map-location"></i>
+                                    </div>
+                                    <div class="item-list-info">
+                                        <span class="info-bagde">NEW</span>
+                                        <h4>MapGPT</h4>
+                                        <p>A location-intelligent AI assistant</p>
+                                    </div>
+                                </div>
+                                <div class="item-list">
+                                    <div class="item-img">
+                                        <i class="fa-solid fa-battery-three-quarters fa-rotate-270" ></i>
+                                    </div>
+                                    <div class="item-list-info">
+                                        <span class="info-bagde">NEW</span>
+                                        <h4>Mapbox for EV </h4>
+                                        <p>An integrated navigation solution</p>
+                                    </div>
+                                </div>
+                                <div class="item-list">
+                                    <div class="item-img">
+                                        <i class="fa-solid fa-map-location"></i>
+                                    </div>
+                                    <div class="item-list-info">
+                                        <span class="info-bagde">NEW</span>
+                                        <h4>Autopillot Map</h4>
+                                        <p>Daily-updated maps for autopillot systems</p>
+                                    </div>
+                                </div>
+                                <div class="item-list">
+                                    <div class="item-img">
+                                        <i class="fa-solid fa-map-location"></i>
+                                    </div>
+                                    <div class="item-list-info">
+                                        <span class="info-bagde">NEW</span>
+                                        <h4>ADAS SDK</h4>
+                                        <p>Predict what's ahead on the road</p>
+                                    </div>
+                                </div>
+                                <div class="item-list">
+                                    <div class="item-img">
+                                        <i class="fa-solid fa-map-location"></i>
+                                        <i class="fa-solid fa-location-dot" ></i>
+                                    </div>
+                                    <div class="item-list-info">
+                                        <h4>Dash</h4>
+                                        <p>Beautiful maps, live traffic, music and voice for cars</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown-item">
+                                <h3 class="item-heading">MAPS</h3>
+                                <div class="item-list">
+                                    <div class="item-img">
+                                        <i class="fa-solid fa-route fa-flip-horizontal" ></i>
+                                    </div>
+                                    <div class="item-list-info">
+                                        <h4>Studio</h4>
+                                        <p>Design beautiful, custom maps</p>
+                                    </div>
+                                </div>
+                                <div class="item-list">
+                                    <div class="item-img">
+                                        <i class="fa-solid fa-map-location"></i>
+                                    </div>
+                                    <div class="item-list-info">
+                                        <h4>Maps</h4>
+                                        <p>Smooth, fast, cross-platform maps</p>
+                                    </div>
+                                </div>
+                                <div class="item-list">
+                                    <div class="item-img">
+                                        <i class="fa-solid fa-map-location"></i>
+                                    </div>
+                                    <div class="item-list-info">
+                                        <h4>Mapbox GLJS</h4>
+                                        <p>Build fast, immersive maps for the web</p>
+                                    </div>
+                                </div>
+                                <div class="item-list">
+                                    <div class="item-img">
+                                        <i class="fa-solid fa-map-location"></i>
+                                    </div>
+                                    <div class="item-list-info">
+                                        <h4>Mobile Maps SDK</h4>
+                                        <p>Develop powerful maps for iOs and Android</p>
+                                    </div>
+                                </div>
+                                <div class="item-list">
+                                    <div class="item-img">
+                                        <i class="fa-solid fa-battery-three-quarters fa-rotate-270"></i>
+                                    </div>
+                                    <div class="item-list-info">
+                                        <h4>Stactic Maps </h4>
+                                        <p>Embed static maps anywhere you can place an image</p>
+                                    </div>
+                                </div>
+                                <div class="item-list">
+                                    <div class="item-img">
+                                        <i class="fa-solid fa-map-location"></i>
+                                    </div>
+                                    <div class="item-list-info">
+                                        <h4>Mapbox Tiling Service</h4>
+                                        <p>Bring your own custom data to your map</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="dropdown-item">
+                                <h3 class="item-heading">SEARCH</h3>
+                                <div class="item-list">
+                                    <div class="item-img">
+                                        <i class="fa-solid fa-route fa-flip-horizontal" ></i>
+                                    </div>
+                                    <div class="item-list-info">
+                                        <h4>Search Overview</h4>
+                                        <p>APis and SDKs that unlock location search</p>
+                                    </div>
+                                </div>
+                                <div class="item-list">
+                                    <div class="item-img">
+                                        <i class="fa-solid fa-map-location"></i>
+                                    </div>
+                                    <div class="item-list-info">
+                                        <span class="info-bagde">NEW</span>
+                                        <h4>Search Box</h4>
+                                        <p>interactive search for addresses, places, and POis</p>
+                                    </div>
+                                </div>
+                                <div class="item-list">
+                                    <div class="item-img">
+                                        <i class="fa-solid fa-map-location"></i>
+                                    </div>
+                                    <div class="item-list-info">
+                                        <h4>Geocoding</h4>
+                                        <p>Geolocate and validate addresses</p>
+                                    </div>
+                                </div>
+                                <div class="item-list">
+                                    <div class="item-img">
+                                        <i class="fa-solid fa-map-location"></i>
+                                    </div>
+                                    <div class="item-list-info">
+                                        <h4>Address Autofil</h4>
+                                        <p>Simplify and enhance address form fill</p>
+                                    </div>
+                                </div>
+                                    
+                            </div>
+                            <div class="dropdown-item">
+                                <h3 class="item-heading">LOGISTICS</h3>
+                                <div class="item-list">
+                                    <div class="item-img">
+                                        <i class="fa-solid fa-route fa-flip-horizontal" ></i>
+                                    </div>
+                                    <div class="item-list-info">
+                                        <span class="info-bagde">NEW</span>
+                                        <h4>Matrix API</h4>
+                                        <p>Automatically calculate travel distances & ETAs</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown-item">
+                                <h3 class="item-heading">DATA</h3>
+                                <div class="item-list">
+                                    <div class="item-img">
+                                        <i class="fa-solid fa-location-arrow" ></i> 
+                                    </div>
+                                    <div class="item-list-info">
+                                        <h4>Trafic Data</h4>
+                                        <p>Industry-leading data accuracy</p>
+                                    </div>
+                                </div>
+                                <div class="item-list">
+                                    <div class="item-img">
+                                        <i class="fa-solid fa-map-location"></i>
+                                    </div>
+                                    <div class="item-list-info">
+                                        <h4>Mouvement Data</h4>
+                                        <p>Dataset of population movement</p>
+                                    </div>
+                                </div>
+                                <div class="item-list">
+                                    <div class="item-img">
+                                        <i class="fa-solid fa-map-location"></i>
+                                    </div>
+                                    <div class="item-list-info">
+                                        <h4>Boundaries</h4>
+                                        <p>4 million global boundaries</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown-item">
+                                <h3 class="item-heading">SELF-HOSTED</h3>
+                                <div class="item-list">
+                                    <div class="item-img">
+                                        <i class="fa-solid fa-location-arrow" ></i>  
+                                    </div>
+                                    <div class="item-list-info">
+                                        <h4>Atlas</h4>
+                                        <p>Mapbox on-premises</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown-item">
+                                <h3 class="item-heading">MAPBOX PLATFORM</h3>
+                                <div class="item-list">
+                                    <div class="item-img">
+                                        <i class="fa-solid fa-location-arrow" ></i>  
+                                    </div>
+                                    <div class="item-list-info">
+                                        <h4>Infrastructure Platform</h4>
+                                        <p>Reliable Infrastructure for your apps</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-list">
+                    <a href="#" class="nav-link">
+                        <span>Solutions</span>
+                        <i class="fa-solid fa-chevron-down"id="icon-size" style="color: #ffffff;"></i>
+                    </a>
+                </li>
+                <li class="nav-list">
+                    <a href="#" class="nav-link">
+                        <span>Developers</span>
+                        <i class="fa-solid fa-chevron-down"id="icon-size" style="color: #ffffff;"></i>
+                    </a>
+                </li>
+                <li class="nav-list">
+                    <a href="#" class="nav-link">
+                        <span>Company</span>
+                        <i class="fa-solid fa-chevron-down"id="icon-size" style="color: #ffffff;"></i>
+                    </a>
+                </li>
+                <li class="nav-list">
+                    <a href="#" class="nav-link">
+                        <span>Customers</span>
+                    </a>
+                </li>
+                <li class="nav-list">
+                    <a href="#" class="nav-link">
+                        <span>Princing</span>
+                    </a>
+                </li>
+                <li class="nav-list">
+                    <a href="#" class="nav-link">
+                        <span>Blog</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="nav-action">
+                <a href="#" class="btn">Log in</a>
+                <a href="#" class="btn-primary">Sign up</a>
+                <div class="nav-toggle">
+                    <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                </div>
+
+            </div>
+        </nav>
+
+    </div>
+    <div class="container-header">
+        <h1>Location intelligence for business</h1>
+        <p>AI-powered location technology for automakers, mobile app developers, and logistics services</p>
+        <a href="#" class="btn-link active">Get started for free</a>
+        <a href="#"class="btn-link">Contactes sales</a>
+
+    </div>
+
+    
+    
+    <script src="pages/script.js"></script>
+</body>
+</html>
